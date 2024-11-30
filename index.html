@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Michael Doe !
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          Mdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="rabbit-7855464_960_720.jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Michael Doe! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am an AV Tech with 6 years of experience!<br/>
+            I am currently working on learning code through Coursera!<br/>
+            I have always liked using computers as well as building gaming PC's!<br/>
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="acoustic-1294298_960_720.png"/>
+            <h6>Audio Tech</h6>
+            <p>6 years experience</p>
+          </div>  
+
+        <div class="skill">
+            <img src="video-recorder-6699083_1280.png"/>
+            <h6>Video Tech</h6>
+            <p>6 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="lamp-378369_1280.png"/>
+            <h6>Lighting tech</h6>
+            <p>2 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="clapboard-4489924_1280.png"/>
+            <h6>General Production</h6>
+            <p>3 years experience</p>
+        </div>  
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Film Director</h3>
+            <ul>
+              <li>Directed several blockbuster films. They've done well in the box office.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Fashion Designer</h3>
+            <ul>
+              <li>Developed and deployed new clothing types and have spearheaded fashion for the Ralph Lauren.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Professional Fighting Game Player</h3>
+            <ul>
+              <li>Entered, competed, and placed 1st in multiple competeitions, including EVO and local tournaments.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I highly recommend Michael for his outstanding skills, dedication, and professionalism. 
+          He consistently demonstrates strong problem-solving abilities, excellent communication, and a positive attitude, making him a valuable asset to any team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Michael’s dedication, creativity, and ability to thrive under pressure make him an invaluable contributor.
+           His strong leadership and communication skills ensure successful outcomes in every project he undertakes.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Michael is an exceptional professional with a keen eye for detail and a strong work ethic. 
+          His collaborative spirit, problem-solving skills, and reliability make him a true asset to any team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Michael is a driven and reliable professional, always delivering high-quality work with precision. 
+          His ability to adapt and collaborate effectively makes him an indispensable team member.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+            <span>&#8220;</span>
+            With excellent communication and problem-solving skills, Michael consistently exceeds expectations. 
+            His strong work ethic and positive attitude create a productive and motivating environment for everyone around him.
+            <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+            <span>&#8220;</span>
+            Michael stands out for his exceptional analytical skills and leadership ability.
+             His proactive approach, combined with his commitment to excellence, ensures he consistently adds significant value to any project or team.
+            <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank you for leaving a recommendation! Neat!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
